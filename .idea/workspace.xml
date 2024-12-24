@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/model/Employee.java" afterDir="false" />
+    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/repository/implement/EmployeeRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +16,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -114,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734801315362</updated>
       <workItem from="1734801317595" duration="222000" />
-      <workItem from="1735057001911" duration="3038000" />
+      <workItem from="1735057001911" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added.">
       <option name="closed" value="true" />
@@ -124,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735082096274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Employee entity model with JPA and validation annotations&#10;&#10;Introduced the `Employee` class to represent employee data in the system. The class includes JPA annotations for ORM mapping and validation constraints to ensure data integrity. This is part of the initial setup for the Maven-based Spring MVC project.">
+      <option name="closed" value="true" />
+      <created>1735082899453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735082899453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack.">
+      <option name="closed" value="true" />
+      <created>1735083111436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735083111436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added." />
+    <MESSAGE value="Add Employee entity model with JPA and validation annotations&#10;&#10;Introduced the `Employee` class to represent employee data in the system. The class includes JPA annotations for ORM mapping and validation constraints to ensure data integrity. This is part of the initial setup for the Maven-based Spring MVC project." />
+    <MESSAGE value="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack." />
   </component>
 </project>
