@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/repository/implement/EmployeeRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Add EmployeeService interface and implementation&#10;&#10;Introduced `EmployeeService` interface and its implementation `EmployeeServiceImpl` to manage employee-related operations. Methods include creating, retrieving, updating, and deleting employee records. Transactional annotations ensure proper handling of database transactions.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -60,6 +62,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 11.0.2.executor": "Run",
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -79,19 +82,85 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="e5120d43-2c3f-47ef-9f26-65e539e05186" />
       <deployment>
         <artifact name="SpringMvcHibernate:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/SpringMvcHibernate_war_exploded" />
+            <option name="CONTEXT_PATH" value="/SpringMvcHibernate" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="73992836-b7f6-4862-a7ce-f8831333b71d" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55420" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -117,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734801315362</updated>
       <workItem from="1734801317595" duration="222000" />
-      <workItem from="1735057001911" duration="3774000" />
+      <workItem from="1735057001911" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added.">
       <option name="closed" value="true" />
@@ -143,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735083111436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add EmployeeRepository interface and implementation&#10;&#10;Introduced `EmployeeRepository` interface and corresponding implementation (`EmployeeRepositoryImpl`) for CRUD operations on `Employee` entities. This includes methods for adding, retrieving, editing, and deleting employees using Hibernate and Spring Framework integration. The changes are part of the repository layer setup for the application.">
+      <option name="closed" value="true" />
+      <created>1735083669152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735083669152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add EmployeeService interface and implementation&#10;&#10;Introduced `EmployeeService` interface and its implementation `EmployeeServiceImpl` to manage employee-related operations. Methods include creating, retrieving, updating, and deleting employee records. Transactional annotations ensure proper handling of database transactions.">
+      <option name="closed" value="true" />
+      <created>1735084151381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735084151381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +238,8 @@
     <MESSAGE value="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added." />
     <MESSAGE value="Add Employee entity model with JPA and validation annotations&#10;&#10;Introduced the `Employee` class to represent employee data in the system. The class includes JPA annotations for ORM mapping and validation constraints to ensure data integrity. This is part of the initial setup for the Maven-based Spring MVC project." />
     <MESSAGE value="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README with project description and technologies used&#10;&#10;Added details about the CRUD application built with Spring Framework, Hibernate ORM, and PostgreSQL. This provides clarity on the project's purpose and its technology stack." />
+    <MESSAGE value="Add EmployeeRepository interface and implementation&#10;&#10;Introduced `EmployeeRepository` interface and corresponding implementation (`EmployeeRepositoryImpl`) for CRUD operations on `Employee` entities. This includes methods for adding, retrieving, editing, and deleting employees using Hibernate and Spring Framework integration. The changes are part of the repository layer setup for the application." />
+    <MESSAGE value="Add EmployeeService interface and implementation&#10;&#10;Introduced `EmployeeService` interface and its implementation `EmployeeServiceImpl` to manage employee-related operations. Methods include creating, retrieving, updating, and deleting employee records. Transactional annotations ensure proper handling of database transactions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add EmployeeService interface and implementation&#10;&#10;Introduced `EmployeeService` interface and its implementation `EmployeeServiceImpl` to manage employee-related operations. Methods include creating, retrieving, updating, and deleting employee records. Transactional annotations ensure proper handling of database transactions." />
   </component>
 </project>
