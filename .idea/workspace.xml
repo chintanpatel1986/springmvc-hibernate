@@ -9,52 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Add EmployeeController and employee-form.jsp&#10;&#10;Introduce `EmployeeController` to handle employee management actions such as adding, updating, deleting, and retrieving employees. Additionally, create the `employee-form.jsp` view to support the user interface for these operations.">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js.map" afterDir="false" />
+    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Add Bootstrap integration and navigation link updates&#10;&#10;Integrated Bootstrap styles and scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs for resource linking. Updated `index.jsp` to include a navigation link to the employee page, improving UI/UX consistency.">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/controller/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +93,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.2" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="e5120d43-2c3f-47ef-9f26-65e539e05186" />
@@ -241,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734801315362</updated>
       <workItem from="1734801317595" duration="222000" />
-      <workItem from="1735057001911" duration="6061000" />
+      <workItem from="1735057001911" duration="7177000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added.">
       <option name="closed" value="true" />
@@ -299,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735085556970</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add bootstrap-reboot.rtl.min.css.map file  &#10;&#10;This commit includes the addition of a missing CSS map file for Bootstrap RTL styles. It ensures proper mapping and debugging for the related CSS file during development.">
+      <option name="closed" value="true" />
+      <created>1735086651916</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735086651916</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Bootstrap integration and navigation link updates&#10;&#10;Integrated Bootstrap styles and scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs for resource linking. Updated `index.jsp` to include a navigation link to the employee page, improving UI/UX consistency.">
+      <option name="closed" value="true" />
+      <created>1735086963454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735086963454</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +292,8 @@
     <MESSAGE value="Add EmployeeService interface and implementation&#10;&#10;Introduced `EmployeeService` interface and its implementation `EmployeeServiceImpl` to manage employee-related operations. Methods include creating, retrieving, updating, and deleting employee records. Transactional annotations ensure proper handling of database transactions." />
     <MESSAGE value="Add HomeController and index.jsp for basic routing&#10;&#10;Introduced `HomeController` with a root endpoint mapping to `index.jsp`, providing the initial routing for the application. Added a basic `index.jsp` file as a placeholder for the home page. These changes set up the foundation for the web application's front-facing functionality." />
     <MESSAGE value="Add EmployeeController and employee-form.jsp&#10;&#10;Introduce `EmployeeController` to handle employee management actions such as adding, updating, deleting, and retrieving employees. Additionally, create the `employee-form.jsp` view to support the user interface for these operations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add EmployeeController and employee-form.jsp&#10;&#10;Introduce `EmployeeController` to handle employee management actions such as adding, updating, deleting, and retrieving employees. Additionally, create the `employee-form.jsp` view to support the user interface for these operations." />
+    <MESSAGE value="Add bootstrap-reboot.rtl.min.css.map file  &#10;&#10;This commit includes the addition of a missing CSS map file for Bootstrap RTL styles. It ensures proper mapping and debugging for the related CSS file during development." />
+    <MESSAGE value="Add Bootstrap integration and navigation link updates&#10;&#10;Integrated Bootstrap styles and scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs for resource linking. Updated `index.jsp` to include a navigation link to the employee page, improving UI/UX consistency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Bootstrap integration and navigation link updates&#10;&#10;Integrated Bootstrap styles and scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs for resource linking. Updated `index.jsp` to include a navigation link to the employee page, improving UI/UX consistency." />
   </component>
 </project>
