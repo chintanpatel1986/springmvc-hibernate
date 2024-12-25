@@ -6,10 +6,7 @@ import org.chintanpatel.app.service.EmployeeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/employees")
@@ -28,7 +25,7 @@ public class EmployeeController {
         return "employee-form";
     }
 
-    @GetMapping("/saveOrUpdateEmployee")
+    @PostMapping("/saveOrUpdateEmployee")
     public String saveOrUpdateEmployee(@Valid @ModelAttribute("employee")Employee employee, BindingResult bindingResult, Model model){
         if (bindingResult.hasErrors()) {
             model.addAttribute("employeeList", employeeService.getAllEmployeeList());
@@ -40,7 +37,7 @@ public class EmployeeController {
         } else {
             employeeService.addEmployee(employee);
         }
-        return "redirect:/employee/getEmployee";
+        return "redirect:/employees/getEmployee";
     }
 
     @GetMapping("/manageEmployee")
@@ -57,6 +54,6 @@ public class EmployeeController {
         if (employeeId != null) {
             employeeService.deleteEmployeeById(employeeId);
         }
-        return "redirect:/employee/getEmployee";
+        return "redirect:/employees/getEmployee";
     }
 }
