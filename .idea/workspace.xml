@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Add Bootstrap integration and update navigation links&#10;&#10;Integrated Bootstrap styles/scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs to enhance UI/UX. Updated `index.jsp` to include a navigation link to the employee page for better accessibility. Adjusted `EmployeeController` mapping to align with RESTful conventions.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee-form.jsp" afterDir="false" />
+    <list default="true" id="2097e550-f734-45e6-9dd0-c2d8796cee29" name="Changes" comment="Refactor employee management and integrate Spring form tags&#10;&#10;Updated `employee-form.jsp` to utilize Spring form tags for binding and validation, improving user form handling. Adjusted `EmployeeController` mappings to use RESTful conventions with updated redirect logic. Enhanced the UI with Bootstrap integration for better design consistency.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chintanpatel/app/model/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734801315362</updated>
       <workItem from="1734801317595" duration="222000" />
-      <workItem from="1735057001911" duration="11022000" />
+      <workItem from="1735057001911" duration="12033000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize Maven-based Spring MVC project with Hibernate&#10;&#10;Set up a new Maven-based project for Spring MVC with Hibernate integration. The commit includes configuration files, source directories, Maven dependencies, and settings for PostgreSQL. IntelliJ project files, database properties, and initial Java configuration classes were also added.">
       <option name="closed" value="true" />
@@ -286,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735137457422</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor employee management and integrate Spring form tags&#10;&#10;Updated `employee-form.jsp` to utilize Spring form tags for binding and validation, improving user form handling. Adjusted `EmployeeController` mappings to use RESTful conventions with updated redirect logic. Enhanced the UI with Bootstrap integration for better design consistency.">
+      <option name="closed" value="true" />
+      <created>1735143808915</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735143808915</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +310,7 @@
     <MESSAGE value="Add bootstrap-reboot.rtl.min.css.map file  &#10;&#10;This commit includes the addition of a missing CSS map file for Bootstrap RTL styles. It ensures proper mapping and debugging for the related CSS file during development." />
     <MESSAGE value="Add Bootstrap integration and navigation link updates&#10;&#10;Integrated Bootstrap styles and scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs for resource linking. Updated `index.jsp` to include a navigation link to the employee page, improving UI/UX consistency." />
     <MESSAGE value="Add Bootstrap integration and update navigation links&#10;&#10;Integrated Bootstrap styles/scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs to enhance UI/UX. Updated `index.jsp` to include a navigation link to the employee page for better accessibility. Adjusted `EmployeeController` mapping to align with RESTful conventions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Bootstrap integration and update navigation links&#10;&#10;Integrated Bootstrap styles/scripts into `employee-form.jsp` and `index.jsp` using JSTL taglibs to enhance UI/UX. Updated `index.jsp` to include a navigation link to the employee page for better accessibility. Adjusted `EmployeeController` mapping to align with RESTful conventions." />
+    <MESSAGE value="Refactor employee management and integrate Spring form tags&#10;&#10;Updated `employee-form.jsp` to utilize Spring form tags for binding and validation, improving user form handling. Adjusted `EmployeeController` mappings to use RESTful conventions with updated redirect logic. Enhanced the UI with Bootstrap integration for better design consistency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor employee management and integrate Spring form tags&#10;&#10;Updated `employee-form.jsp` to utilize Spring form tags for binding and validation, improving user form handling. Adjusted `EmployeeController` mappings to use RESTful conventions with updated redirect logic. Enhanced the UI with Bootstrap integration for better design consistency." />
   </component>
 </project>

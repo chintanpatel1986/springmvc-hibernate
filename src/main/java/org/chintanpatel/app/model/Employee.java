@@ -17,45 +17,45 @@ public class Employee {
     @Column(name = "employee_id", nullable = false)
     private Long employeeId;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.firstName")
     @Column(name = "first_name", nullable = false)
     private String firstName;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.middleName")
     @Column(name = "middle_name", nullable = false)
     private String middleName;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.lastName")
     @Column(name = "last_name", nullable = false)
     private String lastName;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.gender")
     @Column(name = "gender", nullable = false)
     private String gender;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.programmingLanguage")
     @Column(name = "programming_language", nullable = false)
     private String[] programmingLanguage;
 
-    @NotEmpty
-    @Email
+    @NotEmpty(message = "NotEmpty.employee.email")
+    @Email(message = "Email.employee.email")
     @Column(name = "email", nullable = false)
     private String email;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.mobile")
     @Column(name = "mobile", nullable = false)
     private String mobile;
 
-    @NotNull
+    @NotNull(message = "NotNull.employee.birthDate")
     @Column(name = "birth_date", nullable = false)
     private LocalDate birthDate;
 
-    @NotEmpty
+    @NotEmpty(message = "NotEmpty.employee.userName")
     @Column(name = "user_name", nullable = false)
     private String userName;
 
-    @Size(min = 8, max = 15)
-    @NotEmpty
+    @Size(min = 8, max = 15, message = "Size.employee.password")
+    @NotEmpty(message = "NotEmpty.employee.password")
     @Column(name = "password", nullable = false)
     private String password;
 
