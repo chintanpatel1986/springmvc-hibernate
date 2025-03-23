@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
+@Repository("departmentRepository")
 public class DepartmentRepositoryImpl implements DepartmentRepository {
 
     private final SessionFactory sessionFactory;
