@@ -19,7 +19,7 @@
 <body>
 <div class="container-fluid mt-3">
     <c:url value="/departments/listDepartments" var="departmentUrl"/>
-    <a href="${departmentUrl}" class="link-primary fs-4"></a>
+    <a href="${departmentUrl}" class="link-primary fs-4">Department</a>
 </div>
 </body>
 </html>
