@@ -1,1 +1,1 @@
-Create a crud application with using SpringMVC framework, Hibernate ORM and PostgreSQL database.
+Create a many to one relationship crud application with using springMVC Framework, Hibernate ORM, and PostgreSQL Database.
